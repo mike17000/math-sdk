@@ -2,7 +2,6 @@
     "rtp": 0.9600,
     "paylines": 10,
     "version": "1.0.0",
-    "game_id": "big_bass_adapted",
     "modes": [
         {
             "name": "base",

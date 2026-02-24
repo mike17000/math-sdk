@@ -1,0 +1,69 @@
+{
+  "workingName": "Big Bass Bonanza Adapted",
+  "frontendConfig": {
+    "file": "fe_config.json",
+    "sha256": "1145435352dc5329582b0f898a29fe5a7c9ebf79d6b75decfe272e74a3f69f38",
+    "rtp": 95.68
+  },
+  "gameID": "big_bass_adapted",
+  "rtp": 96.71,
+  "betDenomination": 1000,
+  "minDenomination": 10,
+  "providerNumber": 0,
+  "standardForceFile": {
+    "file": "force.json",
+    "sha256": "ae75b42134ee8b2f6936842f297ea491cddf2dfd383a00d5790078c11457db99"
+  },
+  "bookShelfConfig": [
+    {
+      "name": "base",
+      "tables": [
+        {
+          "file": "lookUpTable_base_0.csv",
+          "sha256": "f5c855b21013762fa89e320ddfa0d4424c6e4c7384d8ae1fe47e22e8e4d8b574"
+        }
+      ],
+      "cost": 1.0,
+      "rtp": 0.9671,
+      "std": 175.57,
+      "bookLength": 10000,
+      "feature": true,
+      "autoEndRoundDisabled": false,
+      "buyBonus": false,
+      "maxWin": 5000,
+      "booksFile": {
+        "file": "books_base.jsonl.zst",
+        "sha256": "6b272df67bece568d19ea41e1f56673e8fea693eb130e4b7a3d0f182d2af8eb1"
+      },
+      "forceFile": {
+        "file": "force_record_base.json",
+        "sha256": "a96dd21aa803733a38bcf661fed8706c954b646ceb4a2da55c84024b54c82961"
+      }
+    },
+    {
+      "name": "bonus",
+      "tables": [
+        {
+          "file": "lookUpTable_bonus_0.csv",
+          "sha256": "421b9da917d374d5863d85d25b7f0ee2b62048c90a7f0524943f6b6f41d62669"
+        }
+      ],
+      "cost": 100.0,
+      "rtp": 0.9671,
+      "std": 5.45,
+      "bookLength": 10000,
+      "feature": false,
+      "autoEndRoundDisabled": false,
+      "buyBonus": true,
+      "maxWin": 5000,
+      "booksFile": {
+        "file": "books_bonus.jsonl.zst",
+        "sha256": "0cb791cc5e76e5f2f46606fea34d04750e808e0742acb27f18276d19dd623dc9"
+      },
+      "forceFile": {
+        "file": "force_record_bonus.json",
+        "sha256": "d27afdcce95c5014b6e2e2f9caea5d4ca28808d28fe8192a9e0f4924e9018896"
+      }
+    }
+  ]
+}
